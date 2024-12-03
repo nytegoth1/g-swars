@@ -5,6 +5,6 @@
 npm install <br>
 npm run dev
 
-  # SCREEN
+# SCREEN
 
-  ![alt text](https://github.com/nytegoth1/g-swars/blob/master/images/localhost_5173_.png?raw=true)
+![alt text](https://github.com/nytegoth1/g-swars/blob/main/images/localhost_5173_.png?raw=true)
