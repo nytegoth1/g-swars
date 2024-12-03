@@ -4,3 +4,7 @@
 # Run
 npm install <br>
 npm run dev
+
+  # SCREEN
+
+  ![alt text](https://github.com/nytegoth1/g-swars/blob/master/images/localhost_5173_.png?raw=true)
