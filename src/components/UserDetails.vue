@@ -6,9 +6,6 @@
         <div>
           <h1>{{ user.name }}'s Details
           </h1>
-          <!-- <span v-if="user.factionlogo"><img :src="user.factionlogo" alt="User image" class="no-depth" /></span> -->
-          <!-- <span v-if="user.roguelogo"><img :src="user.roguelogo" alt="User image" class="no-depth" /></span> -->
-          <!-- <span v-if="user.jedilogo"><img :src="user.jedilogo" alt="User image" class="no-depth" /></span> -->
       </div>
       
       <div class="card">
@@ -19,13 +16,6 @@
         <h3>{{ user.homeworld }}</h3>
         <ul class="just" v-if="user.gender">
         <li><strong>Gender:</strong> {{ user.gender }}</li>
-        <!-- <strong>Born:</strong> {{ user.born }}
-        <strong>Born Location:</strong> {{ user.bornLocation }}
-        <strong>Died:</strong> {{ user.died }}
-        <strong>Died Location:</strong> {{ user.diedLocation }}
-        <strong>Hair Color:</strong> {{ user.hairColor }}
-        <strong>Eye Color:</strong> {{ user.eyeColor }}
-        <strong>Skin Color:</strong> {{ user.skinColor }} -->
         <li v-if="user.cybernetics"><strong>Cybernetics:</strong> {{ user.cybernetics }}</li></ul>
 
         <div v-if="user.about">
@@ -80,7 +70,8 @@
         </ul>
         </div>
 
-        <!---
+        <!--- Left this commented code for future reference. It was used to display images overlayed on the page.
+        Decided to not use it for now due to load times.
         <span v-if="user.shipimage && user.id !=9"><img :src="user.shipimage" alt="User image" class="shipimage" /></span>
 
         <span v-if="user.shipimage && user.id ===9"><img :src="user.shipimage" alt="User image" class="shipimagex" /></span>
@@ -117,7 +108,7 @@
     data() {
       return {
         user: null, // Store the user details here
-        currentBackgroundImage: '', // Store the background image URL
+        currentBackgroundImage: '', // Store the background image URL / commented out for now
         affiliationBackgrounds: {
           // 'Alliance to Restore the Republic': 'https://upsights.fra1.digitaloceanspaces.com/fwbmatch/starwars/star-wars-bg-01.jpg',
           // 'Red Squadron': 'https://images3.alphacoders.com/754/thumb-1920-75475.jpg',
