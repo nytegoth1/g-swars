@@ -2,7 +2,7 @@
  PART2 Another STARWARS API
 
 # PART 2 - A VUE.js frontend for
-https://github.com/nytegoth1/another-starwars-api
+# PART 1 Required: https://github.com/nytegoth1/another-starwars-api
 
 # Run
 npm install <br>
